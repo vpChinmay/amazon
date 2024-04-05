@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navlogo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+    padding-left: 6px;
+    padding-top: 1px;
+    padding-right: 8px;
+    margin: 1px;
+}
+
+.border {
+    border: 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white ;
+}
+
+/* BOX 2 BOX 2 BOX 2 BOX 2 BOX 2 BOX 2 BOX 2 BOX 2 BOX 2 BOX 2 BOX 2 BOX 2 BOX 2 BOX 2 BOX 2 BOX 2 BOX 2 BOX 2 BOX 2 BOX 2 BOX 2 BOX 2 BOX 2 BOX 2 BOX */
+
+.nav-address {
+    padding-left: 9px;
+    padding-right: 9px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 2px;
+    margin-left: 3px;
+}
+
+.ad-deliver {
+     color: #cccccc;
+     font-size: 0.7rem;
+     margin-left: 15px;
+}
+
+.add-india {
+    font-size: 0.85rem;
+    margin-left: 4px;
+    font-weight: 700;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+/* BOX 3  BOX 3  BOX 3  BOX 3  BOX 3  BOX 3  BOX 3  BOX 3  BOX 3  BOX 3  BOX 3  BOX 3  BOX 3  BOX 3  BOX 3  BOX 3  BOX 3  BOX 3  BOX 3  BOX 3  BOX 3   */
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #FF9900;
+    height: 40px;
+    width: 720px;
+    border-radius: 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav-search:hover {
+    border: 2px solid #FF9900;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+} 
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-size: 1.2rem;
+    background-color: #FF9900;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+
+/* BOX 4 and BOX 5  BOX 4 and BOX 5  BOX 4 and BOX 5  BOX 4 and BOX 5  BOX 4 and BOX 5  BOX 4 and BOX 5  BOX 4 and BOX 5  BOX 4 and BOX 5  BOX 4 and BOX 5 */
+
+span {
+    font-size: 0.7rem;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-second {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-return {
+    text-decoration: none;
+}
+
+/* BOX 6  BOX 6  BOX 6  BOX 6  BOX 6  BOX 6  BOX 6  BOX 6  BOX 6  BOX 6  BOX 6  BOX 6  BOX 6  BOX 6  BOX 6  BOX 6  BOX 6  BOX 6  BOX 6  BOX 6  BOX 6  BOX */
+
+.nav-cart i {
+    font-size: 30px;
+}
+
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* PANEL  PANEL  PANEL  PANEL  PANEL  PANEL  PANEL  PANEL  PANEL  PANEL  PANEL  PANEL  PANEL  PANEL  PANEL  PANEL  PANEL  PANEL  PANEL  PANEL  PANEL  PANEL */
+
+.panel {
+    height: 40px;
+    background-color: #222f3d; 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.panel-ops a {
+    text-decoration: none;
+    color: white;
+}
+
+.panel-ops p {
+    display: inline;
+    margin-left: 15px;
+}
+
+.panel-ops {
+    width: 70%;
+    font-weight: 0.85rem;
+}
+
+/* HERO SECTION   HERO SECTION   HERO SECTION   HERO SECTION   HERO SECTION   HERO SECTION   HERO SECTION   HERO SECTION   HERO SECTION   HERO SECTION  */
+
+.hero-section {
+    background-image: url(main_bg.jpg);
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-message {
+    background-color: white;
+    color: black;
+    text-align: center;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 97%;    
+    margin-bottom: 25px;
+}
+
+.hero-message a {
+    color: #007185;
+    text-decoration: none;
+}
+
+ /* ITEM BOXES / SHOP SECTION   ITEM BOXES / SHOP SECTION   ITEM BOXES / SHOP SECTION   ITEM BOXES / SHOP SECTION   ITEM BOXES / SHOP SECTION  */
+
+ .shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #8bc4ad;
+ }
+
+ .box {
+    height: 385px;
+    width: 312px;
+    background-color: white;
+    padding: 20px 0px 15px ;
+    margin-top: 20px ;
+}
+
+.box-image {
+    width: 273px;
+    height:303px ;
+    background-size: cover;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+
+.box-content {
+    margin: 0px 20px 0px 20px;
+
+}
+
+.box-content a {
+    text-decoration: none;
+    color: #007185
+}
+
+#spacebetweenthefooter{
+    color: #8bc4ad;
+    background-color: #8bc4ad;
+    height: 20px;
+}
+
+/* Footer panel  Footer panel  Footer panel  Footer panel  Footer panel  Footer panel  Footer panel  Footer panel  Footer panel  Footer panel  Footer panel */
+
+footer {
+    background-color: #8bc4ad;
+}
+
+.foot-panel1 {
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.foot-panel2 {
+    background-color: #222f3d;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    height: 400px;
+    
+}
+
+ul {
+    margin: 40px;
+}
+
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #dddddd;
+}
+
+.foot-panel3 {
+    background-color: #222f3d;
+    color: white;
+    border-top: 2px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+.foot-panel4 {
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    font-size: 0.75rem;
+    text-align: center;
+}
+
+.pages {
+    padding-top: 25px;
+}
+
+.copyright {
+    padding-top: 10px;
+}
+
+.pages a {
+    text-decoration: none;
+    color: white;
+}
